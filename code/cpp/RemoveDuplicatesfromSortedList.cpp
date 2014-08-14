@@ -21,7 +21,7 @@ public:
             if(!first) {
                 first = true;
                 p->next = q;
-                now = q->val
+                now = q->val;
                 p = p->next;
             } else {
                 if(now != q->val) {
